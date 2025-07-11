@@ -1,0 +1,10 @@
+DYJetstoLL_M-50_postEE
+DYto2L-2Jets_MLL-50_postEE
+DiPhoton2Jets_postEE
+GJet_PT-40_postEE
+WGto2QG_postEE
+WW_postEE
+WZ_postEE
+ZG2JtoG2L2J_postEE
+ZZ_postEE
+qcd_PT-30to40_postEE
