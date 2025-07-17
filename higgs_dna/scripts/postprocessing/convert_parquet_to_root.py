@@ -100,6 +100,9 @@ def main():
         "ggh": target_path.replace(
             "merged.root", "output_GluGluHToGG_M125_13TeV_amcatnloFXFX_pythia8.root"
         ),
+        "ggh_70": target_path.replace(
+            "merged.root", "output_GluGluHToGG_M70_13p6TeV_amcatnloFXFX_pythia8.root"                   ### ADDED by CHMA
+        ),
         "ggh_125": target_path.replace(
             "merged.root", "output_GluGluHToGG_M125_13TeV_amcatnloFXFX_pythia8.root"
         ),
@@ -111,6 +114,9 @@ def main():
         ),
         "vbf": target_path.replace(
             "merged.root", "output_VBFHToGG_M125_13TeV_amcatnlo_pythia8.root"
+        ),
+        "vbf_70": target_path.replace(
+            "merged.root", "output_VBFHToGG_M70_13p6TeV_amcatnlo_pythia8.root"
         ),
         "vbf_125": target_path.replace(
             "merged.root", "output_VBFHToGG_M125_13TeV_amcatnlo_pythia8.root"
@@ -162,6 +168,9 @@ def main():
         ),
         "tth": target_path.replace(
             "merged.root", "output_TTHToGG_M125_13TeV_amcatnlo_pythia8.root"
+        ),
+        "tth_70": target_path.replace(
+            "merged.root", "output_TTHToGG_M70_13p6TeV_amcatnlo_pythia8.root"                           ### ADDED by CHMA
         ),
         "tth_125": target_path.replace(
             "merged.root", "output_TTHToGG_M125_13TeV_amcatnlo_pythia8.root"
