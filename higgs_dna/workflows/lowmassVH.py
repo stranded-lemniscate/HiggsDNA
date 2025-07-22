@@ -1024,6 +1024,9 @@ class lowmassVHProcessor(HggBaseProcessor):
                 )  # Need to clarify if this variable is suitable, does it fulfill abs(eta_j) < 2.5? Probably not
                 # Preparation for HTXS measurements later, start with stage 0 to disentangle VH into WH and ZH for final fits
                 diphotons["HTXS_stage_0"] = events.HTXS.stage_0
+                diphotons["GenPart_pdgId"] = events.GenPart.pdgId                      # Explicit Particle ID     CHMA
+                diphotons["GenPart_statusFlags"] = events.GenPart.statusFlags                 
+            
             # Fill zeros for data because there is no GenVtx for data, obviously
             else:
                 diphotons["dZ"] = ak.zeros_like(events.PV.z)
